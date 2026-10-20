@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMa9er7TL52T6KXCZ1KoKDK",
+      "authorship_tag": "ABX9TyOR/lDSYC0FVUl4fOBEkVmo",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -497,39 +497,6 @@
           "text": [
             "\u001b[1m1/1\u001b[0m \u001b[32m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[37m\u001b[0m \u001b[1m0s\u001b[0m 99ms/step\n",
             "Predicted Source Mode: Engine\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "step 10:save the model"
-      ],
-      "metadata": {
-        "id": "HLrqQxHfoasL"
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "# Save the entire model\n",
-        "model.save(\"ai_with_hcu.h5\")\n"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "wxgPgyPNok94",
-        "outputId": "b169deb8-1157-440f-b677-8c35d5397be2"
-      },
-      "execution_count": 17,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. \n"
           ]
         }
       ]
